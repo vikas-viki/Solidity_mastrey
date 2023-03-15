@@ -6,6 +6,7 @@ contract DataTypes {
 
     // Stors numbers
     int num1 = -1223;
+    
 
     // Stores unsigned numbers (niether + nor -)
     uint num2 = 123;

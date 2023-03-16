@@ -7,6 +7,7 @@ contract Functions {
     uint public count = 0;
     string public name = "Vikas";
     address public owner = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+    
 
     function increment() public {
         count = count + 1;

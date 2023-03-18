@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "isPrime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Conditional.sol": "Conditionals"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Conditional.sol": {
+			"keccak256": "0xa66f8bd71d50eb098d43be20f321cde59368a63adb16880308fcaa7bb0d71ced",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9f622a09a16d1588e1efe32056b9af464e575bbfa9081d6f6819f8c761146406",
+				"dweb:/ipfs/QmVg2iSXP5DqTFbS9AXNoWCg1R5dpbSgFEyfkTnNFhZNRj"
+			]
+		}
+	},
+	"version": 1
+}

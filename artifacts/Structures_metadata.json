@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_cameras",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_processor",
+						"type": "string"
+					}
+				],
+				"name": "addNewMobile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "mobiles",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cameras",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "processor",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Structs.sol": "Structures"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Structs.sol": {
+			"keccak256": "0xadc698590af577d2fd2e15f14f8116a30f6c969ec11a0a0cd47acac3809e22ab",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d1aafa34c61eef1e67f8f625a00dcf1c55f9a38468bb46e1b279cd1e9a60065f",
+				"dweb:/ipfs/QmPt5Jw7vrnLgZB81CsoFTSsWr5QTeXxWF9Bc6ABi52VxH"
+			]
+		}
+	},
+	"version": 1
+}

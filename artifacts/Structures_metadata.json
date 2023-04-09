@@ -56,6 +56,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numberOfMobiles",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -86,11 +99,11 @@
 	},
 	"sources": {
 		"Structs.sol": {
-			"keccak256": "0xadc698590af577d2fd2e15f14f8116a30f6c969ec11a0a0cd47acac3809e22ab",
+			"keccak256": "0xba851b888a09a4d5b7bc1b6f943718d72c9ded15e59afe42df4960423a9f61e0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d1aafa34c61eef1e67f8f625a00dcf1c55f9a38468bb46e1b279cd1e9a60065f",
-				"dweb:/ipfs/QmPt5Jw7vrnLgZB81CsoFTSsWr5QTeXxWF9Bc6ABi52VxH"
+				"bzz-raw://8b9f545fbfa2da456f14062f9ad0b467afa0a42cc5585093fe998a2658876943",
+				"dweb:/ipfs/QmdG4LdeFU4EgstvGDMWqSALnLh9kCC3yEo6mqAQntABbA"
 			]
 		}
 	},
